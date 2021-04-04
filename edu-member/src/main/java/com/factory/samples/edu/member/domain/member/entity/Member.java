@@ -1,6 +1,7 @@
 package com.factory.samples.edu.member.domain.member.entity;
 
 import javax.persistence.Column;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -13,6 +14,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import com.factory.samples.edu.member.domain.member.enums.Role;
+import com.factory.samples.edu.member.domain.member.vo.Contact;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -39,4 +41,8 @@ public class Member {
 	@Column(name = "role")
 	@Enumerated(EnumType.STRING)
 	private Role role;
+	
+	@Column(name = "contact")
+	@Embedded
+	private Contact contact;
 }
