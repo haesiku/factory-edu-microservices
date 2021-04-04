@@ -20,8 +20,12 @@ spring:
       enabled: true
       path: /h2-console
 
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+      
 server:
-  port: 8083
+  port: 8084
        
 logging:
   level:

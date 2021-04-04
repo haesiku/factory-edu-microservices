@@ -1,4 +1,4 @@
-package com.factory.samples.edu.course.domain.attendance.entity;
+package com.factory.samples.edu.attendance.domain.attendance.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,8 +9,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
-import com.factory.samples.edu.course.domain.course.entity.Course;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

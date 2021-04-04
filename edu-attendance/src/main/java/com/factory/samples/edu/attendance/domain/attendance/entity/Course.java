@@ -1,4 +1,4 @@
-package com.factory.samples.edu.course.domain.course.entity;
+package com.factory.samples.edu.attendance.domain.attendance.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -25,6 +25,4 @@ public class Course {
 	@Column(name = "name")
 	private String name;
 	
-	@Column(name = "admin_id")
-	private Long adminId;
 }

@@ -1,4 +1,4 @@
-package com.factory.samples.edu.course.domain.attendance.entity;
+package com.factory.samples.edu.attendance.domain.attendance.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
